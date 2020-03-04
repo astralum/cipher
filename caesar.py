@@ -1,6 +1,6 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-message = input("What is the message you want to code? English alphabets only.\n> ")
+message = input("What is your message? English alphabets only.\n> ")
 num = int(input("\nBy how many spaces to the right? Integers only.\n> "))
 
 def code(message, num):
@@ -27,6 +27,6 @@ def code(message, num):
 
         coded += decoded_letter
         i += 1
-    print(f"\nYour coded message is:\n{coded}")
+    print(f"\nOutput is:\n{coded}")
 
 code(message, num)
